@@ -6,7 +6,7 @@ export default function About() {
           <div className="space-y-4">
             <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">About Me</h2>
             <p className="max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-            Hey! I'm Siddharth. I'm really into making websites. Been doing it for about a year now. I work with stuff like JavaScript, React, and Node.js. Love making sites that look good and work great!
+            Hey! I&apos;m Siddharth. I'm really into making websites. Been doing it for about a year now. I work with stuff like JavaScript, React, and Node.js. Love making sites that look good and work great!
             </p>
           </div>
           <div className="grid gap-4">
