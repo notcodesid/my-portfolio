@@ -1,5 +1,3 @@
-import Link from "next/link";
-import Image from "next/image";
 import ProjectCard from "@/components/ProjectCard";
 import Brainwave from "@/public/projects/project-1.png";
 import Todo from "@/public/projects/project-2.png";
@@ -18,14 +16,14 @@ const projects = [
   },
   {
     title: "Todo App",
-    description: "A todo application and let's to do track your task.",
+    description: "A todo application and lets to do track your task.",
     image: Todo,
     liveSite: "https://todo-app-sandy-two-64.vercel.app/",
     github: "https://github.com/notcodesid/todo-app"
   },
   {
     title: "Typing Tester",
-    description: "A typing tester that let's you check you typing speed.",
+    description: "A typing tester that let you check you typing speed.",
     image: Typing,
     liveSite: "https://typing-tester-phi.vercel.app/",
     github: "https://github.com/notcodesid/typing-tester"
@@ -39,14 +37,14 @@ const projects = [
   },
   {
     title: "Weather Check",
-    description: "a place where you'll be find the weather by searching it their name.",
+    description: "a place where you will be find the weather by searching it their name.",
     image: Weather,
     liveSite: "https://weather-wise-ruddy.vercel.app/",
     github: "https://github.com/sidhrthh/weather_wise"
   },
    {
     title: "Password Generator",
-    description: "A react web that let's you generate password based in your choice",
+    description: "A react web that let you generate password based in your choice.",
     image: Password,
     liveSite: "https://password-generator-three-jade.vercel.app/",
     github: "https://github.com/sidhrthh/password-generator"
@@ -62,7 +60,7 @@ export default function Projects() {
           <div className="space-y-2">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">My Projects</h2>
             <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-              Check out some of the projects I've worked on. From web applications to mobile apps, I've built a diverse
+              Check out some of the projects I hae worked on. From web applications to mobile apps, I have built a diverse
               portfolio showcasing my skills and creativity.
             </p>
           </div>
