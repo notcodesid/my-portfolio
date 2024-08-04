@@ -15,6 +15,5 @@
     "utils": "@/lib/utils",
     "ui": "@/components/ui",
     "magicui": "@/components/magicui"
-
   }
 }
