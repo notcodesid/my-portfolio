@@ -1,32 +1,32 @@
 import ProjectCard from "@/components/ProjectCard";
-import Brainwave from "@/public/projects/project-1.png";
-import Todo from "@/public/projects/project-2.png";
-import Typing from "@/public/projects/project-3.png";
+import Bloging from "@/public/projects/project-1.png";
+import Ama from "@/public/projects/project-2.png";
+import learnwebdev from "@/public/projects/project-3.png";
 import TravelUI from "@/public/projects/project-4.png";
-import Weather from "@/public/projects/project-5.png";
+import Brainwave from "@/public/projects/project-5.png";
 import Password from "@/public/projects/project-6.png";
 
 const projects = [
   {
-    title: "Brainwave",
-    description: "Design cool websites with parallax effects and bento box layouts.",
-    image: Brainwave,
-    liveSite: "https://parallax-pro.vercel.app/",
-    github: "https://github.com/notcodesid/Parallax-Pro-"
+    title: "Blogging Website",
+    description: "A blogging site for exploring code, sharing knowledge, and building the future.",
+    image: Bloging,
+    liveSite: "personal-blogging-7ap2.vercel.app/",
+    github: "https://github.com/notcodesid/personal-blogging"
   },
   {
-    title: "Todo App",
-    description: "A todo application and lets to do track your task.",
-    image: Todo,
-    liveSite: "https://todo-app-sandy-two-64.vercel.app/",
-    github: "https://github.com/notcodesid/todo-app"
+    title: "Ask Me Anything",
+    description: "For getting all the doubts and question at one place",
+    image: Ama,
+    liveSite: "https://ama-beige.vercel.app/",
+    github: "https://github.com/notcodesid/askmeanything"
   },
   {
-    title: "Typing Tester",
-    description: "A typing tester that let you check you typing speed.",
-    image: Typing,
-    liveSite: "https://typing-tester-phi.vercel.app/",
-    github: "https://github.com/notcodesid/typing-tester"
+    title: "Learn Web Dev",
+    description: "A basic roadmap and resources for learning Web development.",
+    image:learnwebdev ,
+    liveSite: "https://learnwebdev.vercel.app/",
+    github: "https://github.com/notcodesid/learnwebdev"
   },
   {
     title: "Travel Map",
@@ -36,18 +36,18 @@ const projects = [
     github: "https://github.com/notcodesid/Travel-app"
   },
   {
-    title: "Weather Check",
-    description: "a place where you will be find the weather by searching it their name.",
-    image: Weather,
-    liveSite: "https://weather-wise-ruddy.vercel.app/",
-    github: "https://github.com/sidhrthh/weather_wise"
+    title: "Brainwave",
+    description: "Design cool websites with parallax effects and bento box layouts.",
+    image: Brainwave,
+    liveSite: "https://parallax-pro.vercel.app/",
+    github: "https://github.com/notcodesid/Parallax-Pro-"
   },
    {
-    title: "Password Generator",
-    description: "A react web that let you generate password based in your choice.",
+    title: "Typing Tester",
+    description: "A typing tester that let you check you typing speed.",
     image: Password,
-    liveSite: "https://password-generator-three-jade.vercel.app/",
-    github: "https://github.com/sidhrthh/password-generator"
+    liveSite: "https://typing-tester-phi.vercel.app/",
+    github: "https://github.com/notcodesid/typing-tester"
   },
   // Add more projects here...
 ];

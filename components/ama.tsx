@@ -6,6 +6,7 @@ import { Button } from "@/components/ui/button"
 import { Textarea } from "@/components/ui/textarea"
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from "@/components/ui/dialog"
 import { useToast } from "../hooks/use-toast"
+import axios from 'axios'
 
 export default function AskMeAnything() {
   const [open, setOpen] = useState(false)
@@ -14,15 +15,9 @@ export default function AskMeAnything() {
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
-    // TODO: Implement API call to submit question
-    console.log('Submitting question:', question)
-    
-    // Simulating an API call with a timeout
     await new Promise(resolve => setTimeout(resolve, 1000))
-    
     setQuestion('')
     setOpen(false)
-    
     // Show success toast
     toast({
       title: "Your message has landed with warmth and joy.",
