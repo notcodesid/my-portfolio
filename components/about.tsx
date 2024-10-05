@@ -6,7 +6,11 @@ export default function About() {
           <div className="space-y-4">
             <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">About Me</h2>
             <p className="max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-            Hey! I&apos;m Siddharth. I&apos;m really into making websites. Been doing it for about a year now. I work with stuff like JavaScript, React, and Node.js. Love making sites that look good and work great!
+            Hey! I&apos;m Siddharth. I&apos;m really into making websites. Been doing it for about a year now. I work with stuff like <span className="font-bold text-red-500 "> TypeScipt, JavaScript, React, and Node.js.</span>  
+            
+            <br />
+            <br />
+            Love making sites that look good and work great!
             </p>
           </div>
           <div className="grid gap-4">
@@ -22,12 +26,7 @@ export default function About() {
               My main skills? I&apos;m really good with TypeScript, JavaScript, React, and Node.js. I also know my way around NextJS, ExpressJS, and a bunch of other cool libraries. I can make websites look great on any device, and I get the whole UI/UX thing. Oh, and I&apos;m pretty handy with Git for keeping track of all my code changes.
               </p>
             </div>
-            <div className="grid gap-1">
-              <h3 className="text-xl font-bold">Interests</h3>
-              <p className="text-muted-foreground">
-              When I&apos;m not coding, I&apos;m usually out playing cricket or football. I love keeping up with the latest tech stuff online too. In my free time, you&apos;ll find me binge-watching anime or catching some action movies. I&apos;m always tinkering with my own little projects on the side. What really gets me excited is using tech to solve real problems and make a difference, you know?
-              </p>
-            </div>
+    
           </div>
         </div>
       </section>
