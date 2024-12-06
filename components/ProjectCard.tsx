@@ -68,7 +68,7 @@ interface Project {
   description: string;
   image: string;
   liveSite: string;
-  github: string;
+  github: string | null;
   techStack: Array<keyof typeof TechIcons>;
 }
 
@@ -107,15 +107,17 @@ export default function ProjectCard({ project }: { project: Project }) {
             <ExternalLinkIcon className="mr-2 h-4 w-4" />
             Live Site
           </Link>
-          <Link
-            href={project.github}
-            className="inline-flex items-center justify-center rounded-md border border-input bg-background px-4 py-2 text-sm font-medium shadow-sm transition-colors hover:bg-accent hover:text-accent-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <GithubIcon className="mr-2 h-4 w-4" />
-            GitHub
-          </Link>
+          {project.github && (
+            <Link
+              href={project.github}
+              className="inline-flex items-center justify-center rounded-md border border-input bg-background px-4 py-2 text-sm font-medium shadow-sm transition-colors hover:bg-accent hover:text-accent-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <GithubIcon className="mr-2 h-4 w-4" />
+              GitHub
+            </Link>
+          )}
         </div>
       </div>
     </div>

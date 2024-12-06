@@ -2,6 +2,13 @@ import ProjectCard from "./ProjectCard";
 
 const projects = [
   {
+      title: "Lolify ( Frontend )",
+      description: "Lolify creates branded memes to boost engagement and drive better campaign results.",
+      image: "/projects/project-5.png",
+      liveSite: "https://lolify.io/",
+      techStack: ["Next" ,"React", "Tailwind"],
+    },
+    {
     title: "Blogging Website",
     description: "A blogging site for exploring code, sharing knowledge, and building the future.",
     image: "/projects/project-1.png",
@@ -33,14 +40,7 @@ const projects = [
     github: "https://github.com/notcodesid/dognosis",
     techStack: ["Next", "React", "Tailwind"],
   },
-  {
-    title: "Brainwave",
-    description: "Design cool websites with parallax effects and bento box layouts.",
-    image: "/projects/project-5.png",
-    liveSite: "https://parallax-pro.vercel.app/",
-    github: "https://github.com/notcodesid/Parallax-Pro-",
-    techStack: ["React", "Tailwind"],
-  },
+ 
   {
     title: "Typing Tester",
     description: "A typing tester that lets you check your typing speed.",
@@ -64,7 +64,7 @@ export default function Projects() {
         </div>
         <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {projects.map((project, index) => (
-            <ProjectCard key={index} project={project} />
+            <ProjectCard key={index} project={{ ...project, github: project.github ?? null }} />
           ))}
         </div>
       </div>
