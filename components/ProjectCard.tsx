@@ -78,9 +78,10 @@ export default function ProjectCard({ project }: { project: Project }) {
       <Image
         src={project.image}
         alt={project.title}
-        width={400}
-        height={300}
-        className="h-48 w-full object-cover"
+        layout="responsive"
+        width={16}
+        height={9}
+        className="h-48 w-full object-contain"
       />
       <div className="bg-background p-4">
         <h3 className="text-xl font-bold">{project.title}</h3>
