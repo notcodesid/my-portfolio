@@ -58,7 +58,7 @@ export default function Projects() {
         <div className="flex flex-col items-center justify-center space-y-4 text-center">
           <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">My Projects</h2>
           <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-            Check out some of the projects I have worked on. From web applications to mobile apps, I have built a diverse
+            Check out some of the projects I have worked on. I have built a diverse
             portfolio showcasing my skills and creativity.
           </p>
         </div>
