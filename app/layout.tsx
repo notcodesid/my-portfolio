@@ -11,6 +11,32 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Siddharth Pandro",
   description: "A Protfolio site for showcasing my works.",
+
+
+  // Open Graph metadata
+  openGraph: {
+    title: "Portfolio",
+    description:"I code.",
+    url: "https://www.notcodesid.xyz/",
+    siteName: "Portfolio",
+    images: [
+      {
+        url:"/open-graph.png", // image link
+        width: 1200,
+        height: 500,
+        alt: "Title with their description",
+      },
+    ],
+    locale: "en_US",
+    type: "article",
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "Portfolio",
+    description:"I code.",
+    images: ["/open-graph.png"],
+  }
 };
 
 export default function RootLayout({
