@@ -17,7 +17,7 @@ export default function About() {
             <div className="grid gap-1">
               <h3 className="text-xl font-bold">Background</h3>
               <p className="text-muted-foreground">
-              I&apos;ve doing a Bachelor&apos;s in Science, by the way. I&apos;ve worked with small teams and done some Hackathons too. Always trying to learn new tech stuff - I&apos;m kinda addicted to keeping up with what&apos;s new in the industry!
+              I&apos;m pursuing a Bachelor&apos;s degree in Science., by the way. I&apos;ve worked with small teams and done some Hackathons too. Always trying to learn new tech stuff - I&apos;m kinda addicted to keeping up with what&apos;s new in the industry!
               </p>
             </div>
             <div className="grid gap-1">
