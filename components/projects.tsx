@@ -32,14 +32,7 @@ const projects = [
     github: "https://github.com/notcodesid/learnwebdev",
     techStack: ["React", "Next", "Tailwind"],
   },
-  {
-    title: "dognosis",
-    description: "reimagining the relationship between humans and our best friends",
-    image: "/projects/project-4.png",
-    liveSite: "https://dognosis.vercel.app/",
-    github: "https://github.com/notcodesid/dognosis",
-    techStack: ["Next", "React", "Tailwind"],
-  },
+
  
   {
     title: "typing tester",
