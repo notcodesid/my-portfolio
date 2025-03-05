@@ -9,7 +9,6 @@ export default function Home() {
     <>
     <HeroSection />
     <About />
-    <IconCloudDemo />
     <Projects />
     <Social />
     </>
