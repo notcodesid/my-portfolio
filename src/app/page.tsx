@@ -4,8 +4,8 @@ import Link from "next/link"
 import { ThemeToggle } from "@/components/theme-toggle"
 
 export const metadata: Metadata = {
-  title: "freddie / frederico batista",
-  description: "product engineer at the intersection of design and web development",
+  title: "siddharth",
+  description: "engineer at the intersection of design and web development",
 }
 
 // Icon component for consistent logo display
