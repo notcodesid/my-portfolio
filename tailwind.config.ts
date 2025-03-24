@@ -7,7 +7,7 @@ const config = {
     './components/**/*.{ts,tsx}',
     './app/**/*.{ts,tsx}',
     './src/**/*.{ts,tsx}',
-	],
+  ],
   prefix: "",
   theme: {
     container: {
@@ -19,6 +19,26 @@ const config = {
     },
     extend: {
       colors: {
+        neutral: {
+          1: "#fbfbfb",
+          2: "#f5f5f5",
+          3: "#e5e5e5",
+          4: "#d4d4d4",
+          5: "#a3a3a3",
+          6: "#7c7c7c",
+          7: "#434648",
+          8: "#171717",
+          dark: {
+            1: "#171717",
+            2: "#262626",
+            3: "#333333",
+            4: "#404040",
+            5: "#737373",
+            6: "#a3a3a3",
+            7: "#d4d4d4",
+            8: "#f5f5f5",
+          }
+        },
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
@@ -54,7 +74,7 @@ const config = {
         },
       },
       borderRadius: {
-        lg: "var(--radius)",
+        lg: "0.5rem",
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
       },
