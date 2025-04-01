@@ -236,7 +236,8 @@ export default function Home() {
           </div>
         </div>
         <ol className="flex flex-col gap-4">
-          <li>
+          {/* Lolify project is currently down */}
+          {/* <li>
             <div className="flex flex-col sm:flex-row gap-2 md:gap-4">
               <div className="w-full max-w-32 flex sm:justify-end">
                 <Icon src="https://ext.same-assets.com/1107240702/2209693309.svg" alt="React Router Typesafe logo" />
@@ -255,7 +256,7 @@ export default function Home() {
                 </p>
               </div>
             </div>
-          </li>
+          </li> */}
           <li>
             <div className="flex flex-col sm:flex-row gap-2 md:gap-4">
               <div className="w-full max-w-32 flex sm:justify-end">
