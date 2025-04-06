@@ -191,7 +191,7 @@ export default function Home() {
               <div>
                 <header className="lowercase text-sm">
                   <h3 className="text-neutral-8 dark:text-neutral-dark-8">
-                    <Link href="https://instantinterior.vercel.app/" className="hover:bg-neutral-2 active:bg-neutral-3 dark:hover:bg-neutral-dark-2 dark:active:bg-neutral-dark-3 focus:outline-none focus-visible:ring-2 focus-visible:ring-neutral-7 dark:focus-visible:ring-neutral-dark-7 px-2 -mx-2 py-1 -my-1 rounded-lg">
+                    <Link href="https://www.instantinterior.in/" className="hover:bg-neutral-2 active:bg-neutral-3 dark:hover:bg-neutral-dark-2 dark:active:bg-neutral-dark-3 focus:outline-none focus-visible:ring-2 focus-visible:ring-neutral-7 dark:focus-visible:ring-neutral-dark-7 px-2 -mx-2 py-1 -my-1 rounded-lg">
                     instant interior
                       <span className="not-sr-only"> ↗</span>
                     </Link>
