@@ -34,43 +34,27 @@ export default function Home() {
         <div>
           <h1 className="text-4xl text-neutral-8 dark:text-neutral-dark-8 lowercase tracking-tighter text-balance">
             I'm <span className="font-semibold">siddharth</span>, engineer* at the
-            intersection of design &amp; web development.
+            intersection of design &amp; development.
           </h1>
         </div>
       </div>
 
-      <aside className="flex flex-col sm:flex-row gap-2 md:gap-4">
-        <div className="w-full max-w-32 flex sm:justify-end">
-          <p className="lowercase text-neutral-8 dark:text-neutral-dark-8 text-balance text-md">
-            *
-          </p>
-        </div>
+      <aside className=" sm:flex-row gap-2">
         <div>
           <p className="lowercase text-neutral-7 dark:text-neutral-dark-7 text-balance text-sm">
-          i love building websites—been at it for about a year now. also into ai agents, web3 (solana), and a bunch of other cool stuff.
+          * I write about things I'm learning,  &nbsp;
+          <Link href="https://blog.notcodesid.xyz/" target="_blank">
+          <span className=" bg-[#c8ff8a] text-black">
+            &nbsp;reflections&nbsp;
+          </span>
+          </Link>
+          &nbsp; and thoughts on life and  &nbsp;
+          <Link href="https://medium.com/@notcodesid" target="_blank">
+          <span className=" bg-[#c8ff8a] text-black ">
+          &nbsp;tech&nbsp;
+          </span>
+          </Link>
           </p>
-
-          {/* Categories Section */}
-          <div className="flex gap-3 mt-3">
-            <Link
-              href="#engineering"
-              className="lowercase text-neutral-8 dark:text-neutral-dark-8 text-sm bg-neutral-2 hover:bg-neutral-3 dark:bg-neutral-dark-2 dark:hover:bg-neutral-dark-3 active:bg-neutral-4 dark:active:bg-neutral-dark-4 focus:outline-none focus-visible:ring-2 focus-visible:ring-neutral-7 dark:focus-visible:ring-neutral-dark-7 px-3 py-1 rounded-md"
-            >
-              engineering
-            </Link>
-            <Link
-              href="#ai"
-              className="lowercase text-neutral-8 dark:text-neutral-dark-8 text-sm bg-neutral-2 hover:bg-neutral-3 dark:bg-neutral-dark-2 dark:hover:bg-neutral-dark-3 active:bg-neutral-4 dark:active:bg-neutral-dark-4 focus:outline-none focus-visible:ring-2 focus-visible:ring-neutral-7 dark:focus-visible:ring-neutral-dark-7 px-3 py-1 rounded-md"
-            >
-              ai
-            </Link>
-            <Link
-              href="#design"
-              className="lowercase text-neutral-8 dark:text-neutral-dark-8 text-sm bg-neutral-2 hover:bg-neutral-3 dark:bg-neutral-dark-2 dark:hover:bg-neutral-dark-3 active:bg-neutral-4 dark:active:bg-neutral-dark-4 focus:outline-none focus-visible:ring-2 focus-visible:ring-neutral-7 dark:focus-visible:ring-neutral-dark-7 px-3 py-1 rounded-md"
-            >
-              design
-            </Link>
-          </div>
         </div>
       </aside>
 
