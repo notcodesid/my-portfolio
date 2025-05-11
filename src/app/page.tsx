@@ -45,13 +45,14 @@ export default function Home() {
           * I write about things I'm learning,  &nbsp;
           <Link href="https://blog.notcodesid.xyz/" target="_blank">
           <span className=" bg-[#c8ff8a] text-black">
-            &nbsp;reflections&nbsp;
+            &nbsp;reflections<span className="not-sr-only"> ↗</span>&nbsp;
+            
           </span>
           </Link>
           &nbsp; and thoughts on life and  &nbsp;
           <Link href="https://medium.com/@notcodesid" target="_blank">
           <span className=" bg-[#c8ff8a] text-black ">
-          &nbsp;tech&nbsp;
+          &nbsp;tech<span className="not-sr-only"> ↗</span>&nbsp;
           </span>
           </Link>
           </p>
