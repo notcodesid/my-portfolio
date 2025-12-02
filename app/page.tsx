@@ -21,7 +21,6 @@ export default function Home() {
         
         plus  <a
             href="/thoughts"
-            target="_blank"
             rel="noopener noreferrer"
             className="text-accent hover:underline transition-colors"
           >
