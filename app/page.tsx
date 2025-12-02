@@ -15,7 +15,7 @@ export default function Home() {
             rel="noopener noreferrer"
             className="text-accent hover:underline transition-colors"
           >
-            learning ↗ 
+            learning↗ 
           </a>{" "}
         
         
@@ -24,7 +24,7 @@ export default function Home() {
             rel="noopener noreferrer"
             className="text-accent hover:underline transition-colors"
           >
-            reflections ↗ 
+            reflections↗ 
           </a>{" "}
           on life.
         </p>
