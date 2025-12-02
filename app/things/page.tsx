@@ -1,40 +1,21 @@
 export default function Things() {
-  const projects = [
-    {
-      title: "Project One",
-      description: "A description of your interesting project and what it does...",
-      link: "#",
-      tech: ["React", "TypeScript", "Node.js"],
-    },
-    {
-      title: "Project Two",
-      description: "Another cool project you've built or contributed to...",
-      link: "#",
-      tech: ["Python", "Machine Learning", "TensorFlow"],
-    },
+  const ideas = [
+    " [i will update this soon]"
   ];
 
   return (
-    <main className="container">
-      <div className="content">
-        <h1 className="page-title">Things I've Built</h1>
-        <p className="page-description">Projects and experiments.</p>
+    <main className="pb-16">
+      <div className="text-base leading-relaxed">
+        <h1 className="text-2xl font-semibold mb-2 text-foreground">
+          things i want to work on
+        </h1>
+        <p className="text-muted mb-6">projects and ideas on my mind -</p>
 
-        <div className="projects-list">
-          {projects.map((project, index) => (
-            <article key={index} className="project-item">
-              <h2 className="project-title">
-                <a href={project.link}>{project.title}</a>
-              </h2>
-              <p className="project-description">{project.description}</p>
-              <div className="tech-stack">
-                {project.tech.map((tech, i) => (
-                  <span key={i} className="tech-tag">
-                    {tech}
-                  </span>
-                ))}
-              </div>
-            </article>
+        <div className="flex flex-col gap-2">
+          {ideas.map((idea, index) => (
+            <p key={index} className="text-muted">
+              {idea}
+            </p>
           ))}
         </div>
       </div>

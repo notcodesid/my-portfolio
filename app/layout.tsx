@@ -1,17 +1,17 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { JetBrains_Mono } from "next/font/google";
 import "./globals.css";
-import ClientLayout from "@/components/ClientLayout";
 import { ThemeProvider } from "@/components/ThemeProvider";
+import Navigation from "@/components/Navigation";
 
-const inter = Inter({
+const jetbrainsMono = JetBrains_Mono({
   subsets: ["latin"],
-  variable: "--font-inter",
+  variable: "--font-jetbrains-mono",
 });
 
 export const metadata: Metadata = {
-  title: "Your Name - Portfolio",
-  description: "Software engineer, AI enthusiast, and more",
+  title: "siddharth",
+  description: "21 yrs old eng, web3 builder and more",
 };
 
 export default function RootLayout({
@@ -36,9 +36,14 @@ export default function RootLayout({
           }}
         />
       </head>
-      <body className={`${inter.variable} antialiased`}>
+      <body className={`${jetbrainsMono.variable} antialiased`}>
         <ThemeProvider>
-          <ClientLayout>{children}</ClientLayout>
+          <div className="min-h-screen flex flex-col items-center">
+            <div className="w-full max-w-2xl px-6 pt-20">
+              <Navigation />
+              {children}
+            </div>
+          </div>
         </ThemeProvider>
       </body>
     </html>

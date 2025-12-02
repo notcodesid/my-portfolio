@@ -1,58 +1,92 @@
 export default function Home() {
   return (
-    <main className="container">
-      <div className="content">
-        <p className="intro">
-          Hi! I'm <strong>Your Name</strong>, a software engineer, ai enthusiast, football nerd and more.
-        </p>
+    <main>
+      <div className="text-base leading-relaxed">
+        <h1 className="text-xl font-semibold text-foreground mb-2">hi, im siddharth</h1>
+        
+        <p className="text-muted mb-1">i'm a 21 yrs old eng, web3 learner and more.</p>
 
-        <p>
-          I'm currently working at{" "}
-          <a href="#" target="_blank" rel="noopener noreferrer">
-            Your Company
+        <p className="text-muted">
+        i write about things i'm {" "}
+        
+        <a
+            href="#"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-accent hover:underline transition-colors"
+          >
+            learning ↗ 
           </a>{" "}
-          on interesting problems in AI safety and engineering.
-        </p>
-
-        <p>
-          I'm pursuing my master's degree in Computer Science at{" "}
-          <a href="#" target="_blank" rel="noopener noreferrer">
-            Your University
-          </a>
-          .
-        </p>
-
-        <p>
-          Previously, I worked at{" "}
-          <a href="#" target="_blank" rel="noopener noreferrer">
-            Previous Company
+        
+        
+        plus  <a
+            href="#"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-accent hover:underline transition-colors"
+          >
+            reflections ↗ 
           </a>{" "}
-          on their data platform team, building scalable systems.
+          on life.
         </p>
 
-        <div className="social-links">
-          <a href="https://twitter.com/yourusername" target="_blank" rel="noopener noreferrer">
-            Twitter
+        <p className=" text-muted">
+          i'm currently working at{" "}
+          <a
+            href="#"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-accent hover:underline transition-colors"
+          >
+            proven
+          </a>{" "}
+          a habit staking app on solana where you bet on your goals and get rewarded for consistency.
+        </p>
+
+        <p className=" text-muted">
+        member of {" "}
+          <a
+            href="#"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-accent hover:underline transition-colors"
+          >
+            superteamIN
+          </a> {" "}
+          contributing to solana ecosystem projects.
+        </p>
+
+        <p className="mb-4 text-muted">
+          previously, i worked at{" "}
+          <a
+            href="#"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-accent hover:underline transition-colors"
+          >
+            web 2 startup 
+          </a>{" "}
+          as a software engineer intern.
+        </p>
+
+        <div className="flex gap-4 items-center text-sm mt-8">
+          <a
+            href="https://x.com/notcodesid"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-accent hover:underline transition-colors"
+          >
+            x
           </a>
-          <span className="separator">·</span>
-          <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer">
-            LinkedIn
-          </a>
-          <span className="separator">·</span>
-          <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">
-            GitHub
+          <a
+            href="http://linkedin.com/in/sidharthh-pandro/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-accent hover:underline transition-colors"
+          >
+            linkedin
           </a>
         </div>
-
-        <p className="footnote">
-          <small>
-            I subscribe to{" "}
-            <a href="https://www.lesswrong.com/tag/crocker-s-rules" target="_blank" rel="noopener noreferrer">
-              Crocker's rules
-            </a>
-            .
-          </small>
-        </p>
       </div>
     </main>
   );
