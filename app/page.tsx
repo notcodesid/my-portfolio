@@ -10,7 +10,7 @@ export default function Home() {
         i write about things i'm {" "}
         
         <a
-            href="#"
+            href="https://medium.com/@notcodesid"
             target="_blank"
             rel="noopener noreferrer"
             className="text-accent hover:underline transition-colors"
@@ -20,7 +20,7 @@ export default function Home() {
         
         
         plus  <a
-            href="#"
+            href="/thoughts"
             target="_blank"
             rel="noopener noreferrer"
             className="text-accent hover:underline transition-colors"
