@@ -1,6 +1,11 @@
 export default function Thoughts() {
   const posts = [
     {
+      title: "the winner effect",
+      category: "how small wins quietly change everything",
+      link: "/thoughts/winnereffect",
+    },
+    {
       title: "can you really code?",
       category: "thoughts on development skills",
       link: "/thoughts/code",
