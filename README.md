@@ -1,36 +1,40 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# notcodesid.com
 
-## Getting Started
+Welcome to the **notcodesid.com** repository — this repo contains the code for my personal website and portfolio.
 
-First, run the development server:
+## 👋 About Me
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Hi, I’m **Siddharth** — a 21-year-old **engineer, web3 learner, and creator**. I write about what I’m learning (especially on Medium) and share reflections on life and tech.  [oai_citation:1‡Not Codesid](https://www.notcodesid.com/)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+I’m currently working on **Proven**, a habit-staking app on **Solana** where users bet on their goals and earn rewards for consistency, and I contribute to the **SuperteamIN** ecosystem. Previously, I worked as a **software engineer intern at a Web2 startup**.  [oai_citation:2‡Not Codesid](https://www.notcodesid.com/)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Connect with me:
+- **X (Twitter):** @notcodesid  
+- **LinkedIn:** [Sidharthh Pandro](https://www.linkedin.com/in/sidharthh-pandro)  [oai_citation:3‡LinkedIn](https://www.linkedin.com/in/sidharthh-pandro?utm_source=chatgpt.com)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🛠️ Website
 
-To learn more about Next.js, take a look at the following resources:
+This website is my personal hub where I:
+- Share what I’m learning
+- Publish blog posts and essays
+- Showcase my projects and experience
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+The site is built using modern web tools and deployed live at:  
+👉 https://www.notcodesid.com  [oai_citation:4‡Not Codesid](https://www.notcodesid.com/)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 💡 Features
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+✔️ Personal homepage with quick intro  
+✔️ Links to social profiles and writing  
+✔️ Professional CV and experience  
+✔️ Reflections, tech learning notes & more
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 📦 Repository Structure
+
+Explain briefly how the repo is organized (example for a Next.js project):
