@@ -10,8 +10,8 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "siddharth",
-  description: "21 yrs old eng, web3 builder and more",
+  title: "sid",
+  description: "21 yrs old eng, builder and more",
 };
 
 export default function RootLayout({

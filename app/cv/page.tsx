@@ -65,7 +65,7 @@ export default function CV() {
 
         <section className="mb-10">
           <h2 className="text-lg font-semibold mb-4 text-foreground">
-            experience
+            cool places I worked at
           </h2>
 
           <div className="space-y-6">
@@ -97,7 +97,7 @@ export default function CV() {
 
         <section className="mb-10">
           <h2 className="text-lg font-semibold mb-4 text-foreground">
-            projects
+            stuff i've built
           </h2>
 
           <div className="space-y-6">
