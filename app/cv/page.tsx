@@ -27,29 +27,20 @@ const projects = [
   {
     name: "proven",
     link: "https://tryproven.fun/",
-    bullets: [
-      "habit-staking platform with on-chain rewards and penalties",
-      "daily proof submission and verification system",
-      "gamified challenges with rewards and accountability",
-    ],
+    description:
+      "a habit-tracking app that pays users for consistently completing daily habits or challenges",
   },
   {
     name: "instant interior",
-    link: "https://www.instantinterior.in/",
-    bullets: [
-      "express and prisma api for ai room transformations",
-      "jwt and google oauth auth with credits and profiles",
-      "backend endpoints for multiple ai design flows",
-    ],
+    link: "https://www.instantinterior.ai/",
+    description:
+      "an ai-powered interior design tool that instantly transforms room and exterior photos into professional, photorealistic designs",
   },
   {
     name: "travel homes",
     link: "https://travelhomes-frontend.vercel.app/",
-    bullets: [
-      "next.js 15 rental platform with typescript and tailwind",
-      "booking flow with pricing, validation, and checkout",
-      "jwt auth for signup, login, profiles, and cookies",
-    ],
+    description:
+      "a demo site for an Indian platform where you can rent fully equipped camper vans, caravans, and motorhomes for road trips, basically Airbnb for RVs in India",
   },
 ];
 
@@ -103,20 +94,17 @@ export default function CV() {
           <div className="space-y-6">
             {projects.map((project) => (
               <div key={project.name}>
-                <a
-                  href={project.link}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-accent hover:underline transition-colors font-medium"
-                >
-                  {project.name}
-                </a>
-
-                <ul className="text-muted text-sm space-y-1 mt-1">
-                  {project.bullets.map((bullet) => (
-                    <li key={bullet}>• {bullet}</li>
-                  ))}
-                </ul>
+                <p className="text-muted text-sm">
+                  <a
+                    href={project.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-accent hover:underline transition-colors font-medium"
+                  >
+                    {project.name}
+                  </a>{" "}
+                  - {project.description}
+                </p>
               </div>
             ))}
           </div>
