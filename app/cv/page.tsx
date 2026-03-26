@@ -122,25 +122,6 @@ export default function CV() {
           </div>
         </section>
 
-        <section className="mb-10">
-          <h2 className="text-lg font-semibold mb-4 text-foreground">skills</h2>
-          <div className="space-y-2">
-            <div>
-              <span className="text-foreground text-sm">technical: </span>
-              <span className="text-muted text-sm">
-                rust, anchor, javascript, typescript, react, next.js, tailwind
-                css, prisma, mongodb
-              </span>
-            </div>
-            <div>
-              <span className="text-foreground text-sm">tools: </span>
-              <span className="text-muted text-sm">
-                git, vs code, postman, figma
-              </span>
-            </div>
-          </div>
-        </section>
-
         <section>
           <h2 className="text-lg font-semibold mb-4 text-foreground">
             contact
