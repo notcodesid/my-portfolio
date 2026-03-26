@@ -1,5 +1,10 @@
 const projects = [
   {
+    name: "friday",
+    link: "https://friday-q8eb.vercel.app/",
+    description: "is an AI-powered marketing operator.",
+  },
+  {
     name: "proven",
     link: "https://tryproven.fun/",
     description:
