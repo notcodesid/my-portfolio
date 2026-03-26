@@ -3,7 +3,7 @@ const experiences = [
     role: "software engineer",
     company: "supernormal",
     location: "remote",
-    dates: "dec 2025 - present",
+    dates: "dec 2025 - mar 2026",
     bullets: [
       "discovered arbitrage opportunities across prediction markets",
       "built and tested automated trading strategies",
