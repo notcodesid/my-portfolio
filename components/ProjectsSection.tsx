@@ -26,14 +26,22 @@ const projects = [
 
 export default function ProjectsSection({
   className,
+  headingTag = "h2",
 }: {
   className?: string;
+  headingTag?: "h1" | "h2";
 }) {
+  const Heading = headingTag;
+  const headingClassName =
+    headingTag === "h1"
+      ? "text-xl font-semibold mb-4 text-foreground"
+      : "text-lg font-semibold mb-4 text-foreground";
+
   return (
     <section className={className}>
-      <h2 className="text-lg font-semibold mb-4 text-foreground">
+      <Heading className={headingClassName}>
         stuff i&apos;ve built
-      </h2>
+      </Heading>
 
       <div className="space-y-6">
         {projects.map((project) => (

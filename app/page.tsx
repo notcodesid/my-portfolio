@@ -1,5 +1,3 @@
-import ProjectsSection from "@/components/ProjectsSection";
-
 export default function Home() {
   return (
     <main className="min-h-[calc(100dvh-12rem)] flex flex-col">
@@ -55,8 +53,6 @@ export default function Home() {
           </li>
         </ul>
       </div>
-
-      <ProjectsSection className="pt-12 pb-12 text-base leading-relaxed" />
 
       <section className="pt-12 pb-[20px] text-base leading-relaxed">
         <h2 className="text-lg font-semibold mb-4 text-foreground">contact</h2>

@@ -8,15 +8,15 @@ export default function Navigation() {
 
   const navItems = [
     { href: "/", label: "me" },
+    { href: "/stuff", label: "stuff i've built" },
     { href: "/thoughts", label: "thoughts" },
     { href: "/things", label: "???" },
-    { href: "/anime", label: "anime" },
     { href: "/cv", label: "cv" },
   ];
 
   return (
     <nav className="flex items-center justify-between mb-20">
-      <div className="flex gap-6 items-center">
+      <div className="flex flex-wrap gap-x-6 gap-y-2 items-center">
         {navItems.map((item) => (
           <Link
             key={item.href}
