@@ -6,7 +6,7 @@ const projects = [
   },
   {
     name: "proven",
-    link: "https://tryproven.fun/",
+    link: "https://aquamarine-operators-401678.framer.app/",
     description:
       "a habit-tracking app that pays users for consistently completing daily habits or challenges",
   },
