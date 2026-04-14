@@ -8,6 +8,7 @@ export default function Navigation() {
 
   if (
     pathname === "/" ||
+    pathname.startsWith("/cv") ||
     pathname.startsWith("/stuff") ||
     pathname.startsWith("/thoughts") ||
     pathname.startsWith("/reflection")

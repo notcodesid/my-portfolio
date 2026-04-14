@@ -1,4 +1,4 @@
-import ProjectsSection from "@/components/ProjectsSection";
+import ThoughtsBackLink from "@/components/ThoughtsBackLink";
 
 const experiences = [
   {
@@ -25,88 +25,143 @@ const experiences = [
   },
 ];
 
+const projects = [
+  {
+    name: "friday",
+    link: "https://friday-q8eb.vercel.app/",
+    description: "ai-powered marketing operator",
+  },
+  {
+    name: "proven",
+    link: "https://aquamarine-operators-401678.framer.app/",
+    description: "habit-tracking app that pays users for consistency",
+  },
+  {
+    name: "instant interior",
+    link: "https://www.instantinterior.ai/",
+    description: "ai interior design tool for photoreal room transformations",
+  },
+  {
+    name: "travel homes",
+    link: "https://travelhomes-frontend.vercel.app/",
+    description: "airbnb-for-rvs style demo for camper van road trips in india",
+  },
+];
+
+const links = [
+  { label: "email", href: "mailto:notcodesid@gmail.com" },
+  {
+    label: "linkedin",
+    href: "https://linkedin.com/in/sidharthh-pandro",
+  },
+  { label: "github", href: "https://github.com/notcodesid" },
+  { label: "x", href: "https://x.com/notcodesid" },
+];
+
 export default function CV() {
   return (
-    <main className="pb-16">
-      <div className="text-base leading-relaxed">
-        <h1 className="text-xl font-semibold mb-2 text-foreground">cv</h1>
-        <p className="text-muted mb-8">
-          full-stack blockchain engineer with 2+ years of experience, looking
-          for full-stack roles
-        </p>
+    <main className="flex min-h-[calc(100dvh-5rem)] items-center">
+      <section className="w-full">
+        <div className="grid gap-10 sm:gap-12">
+          <ThoughtsBackLink />
 
-        <section className="mb-10">
-          <h2 className="text-lg font-semibold mb-4 text-foreground">
-            cool places I worked at
-          </h2>
+          <div className="grid gap-3">
+            <h1 className="text-[2rem] leading-none font-semibold text-white">
+              cv
+            </h1>
+            <p className="max-w-xl text-[0.95rem] leading-relaxed font-semibold text-white">
+              full-stack blockchain engineer with 2+ years of experience.
+            </p>
+          </div>
 
-          <div className="space-y-6">
-            {experiences.map((experience) => (
-              <div key={`${experience.company}-${experience.role}`}>
-                <div className="flex justify-between items-baseline mb-1 gap-4">
-                  <h3 className="font-medium text-foreground">
-                    {experience.role}
-                  </h3>
-                  <time className="text-muted text-sm whitespace-nowrap">
-                    {experience.dates}
-                  </time>
-                </div>
+          <div className="grid gap-8 sm:gap-10">
+            <div className="grid gap-2 sm:grid-cols-[6.5rem_minmax(0,1fr)] sm:gap-8">
+              <p className="text-[0.95rem] leading-none font-semibold text-white">
+                summary/
+              </p>
+              <p className="max-w-xl text-[0.95rem] leading-relaxed font-semibold text-white">
+                frontend-heavy product engineer building across web, mobile,
+                design systems, and blockchain apps.
+              </p>
+            </div>
 
-                <p className="text-accent mb-1">
-                  {experience.company}{" "}
-                  <span className="text-muted text-sm">({experience.location})</span>
-                </p>
-
-                <ul className="text-muted text-sm space-y-1">
-                  {experience.bullets.map((bullet) => (
-                    <li key={bullet}>• {bullet}</li>
-                  ))}
-                </ul>
+            <div className="grid gap-2 sm:grid-cols-[6.5rem_minmax(0,1fr)] sm:gap-8">
+              <p className="text-[0.95rem] leading-none font-semibold text-white">
+                experience/
+              </p>
+              <div className="grid gap-5 sm:gap-6">
+                {experiences.map((experience) => (
+                  <div
+                    key={`${experience.company}-${experience.role}`}
+                    className="max-w-xl text-[0.95rem] leading-relaxed font-semibold text-white"
+                  >
+                    <p>
+                      {experience.role} at {experience.company}{" "}
+                      <span className="text-white/72">
+                        ({experience.location}, {experience.dates})
+                      </span>
+                    </p>
+                    <ul className="mt-2 space-y-1 text-white/72">
+                      {experience.bullets.map((bullet) => (
+                        <li key={bullet}>- {bullet}</li>
+                      ))}
+                    </ul>
+                  </div>
+                ))}
               </div>
-            ))}
-          </div>
-        </section>
+            </div>
 
-        <ProjectsSection className="mb-10" />
+            <div className="grid gap-2 sm:grid-cols-[6.5rem_minmax(0,1fr)] sm:gap-8">
+              <p className="text-[0.95rem] leading-none font-semibold text-white">
+                selected work/
+              </p>
+              <div className="grid gap-4 sm:gap-5">
+                {projects.map((project) => (
+                  <div
+                    key={project.name}
+                    className="max-w-xl text-[0.95rem] leading-relaxed font-semibold text-white"
+                  >
+                    <a
+                      href={project.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="underline decoration-white/35 underline-offset-4 transition hover:decoration-white"
+                    >
+                      {project.name}
+                    </a>{" "}
+                    <span className="text-white/72">{project.description}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
 
-        <section>
-          <h2 className="text-lg font-semibold mb-4 text-foreground">
-            contact
-          </h2>
-          <div className="flex gap-4 text-sm">
-            <a
-              href="mailto:notcodesid@gmail.com"
-              className="text-accent hover:underline"
-            >
-              email
-            </a>
-            <a
-              href="https://linkedin.com/in/sidharthh-pandro"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-accent hover:underline"
-            >
-              linkedin
-            </a>
-            <a
-              href="https://github.com/notcodesid"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-accent hover:underline"
-            >
-              github
-            </a>
-            <a
-              href="https://x.com/notcodesid"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-accent hover:underline"
-            >
-              x
-            </a>
+            <div className="grid gap-2 sm:grid-cols-[6.5rem_minmax(0,1fr)] sm:gap-8">
+              <p className="text-[0.95rem] leading-none font-semibold text-white">
+                links/
+              </p>
+              <div className="max-w-xl text-[0.95rem] leading-relaxed font-semibold text-white">
+                {links.map((link, index) => (
+                  <span key={link.label}>
+                    {index > 0 ? ", " : null}
+                    <a
+                      href={link.href}
+                      target={link.href.startsWith("http") ? "_blank" : undefined}
+                      rel={
+                        link.href.startsWith("http")
+                          ? "noopener noreferrer"
+                          : undefined
+                      }
+                      className="underline decoration-white/35 underline-offset-4 transition hover:decoration-white"
+                    >
+                      {link.label}
+                    </a>
+                  </span>
+                ))}
+              </div>
+            </div>
           </div>
-        </section>
-      </div>
+        </div>
+      </section>
     </main>
   );
 }
