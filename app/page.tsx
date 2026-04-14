@@ -16,6 +16,8 @@ const details = [
     value: "founder of",
     linkLabel: "tryproven.fun",
     href: "https://aquamarine-operators-401678.framer.app/",
+    secondaryHref: "/stuff",
+    secondaryLabel: "+4 more",
   },
   {
     label: "writing/",
@@ -98,11 +100,19 @@ export default function Home() {
                     {"secondaryHref" in item && item.secondaryHref ? (
                       <>
                         {" "}
-                        and {" "}
+                        {"linkLabel" in item && item.linkLabel ? "" : "and "}
                         <a
                           href={item.secondaryHref}
-                          target="_blank"
-                          rel="noopener noreferrer"
+                          target={
+                            item.secondaryHref.startsWith("http")
+                              ? "_blank"
+                              : undefined
+                          }
+                          rel={
+                            item.secondaryHref.startsWith("http")
+                              ? "noopener noreferrer"
+                              : undefined
+                          }
                           className="underline decoration-white/35 underline-offset-4 transition hover:decoration-white"
                         >
                           {item.secondaryLabel}
