@@ -6,6 +6,10 @@ import { usePathname } from "next/navigation";
 export default function Navigation() {
   const pathname = usePathname();
 
+  if (pathname === "/") {
+    return null;
+  }
+
   const navItems = [
     { href: "/", label: "me" },
     { href: "/stuff", label: "stuff i've built" },
