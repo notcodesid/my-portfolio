@@ -1,13 +1,11 @@
+import ReflectionArticleLayout from "@/components/ReflectionArticleLayout";
+
 export default function StudyPost() {
   return (
-    <main className="pb-16">
-      <article className="text-base leading-relaxed">
-        <header className="mb-8">
-          <h1 className="text-2xl font-semibold mb-2 text-foreground">how to study 4 hours every day</h1>
-          <p className="text-muted text-sm">2024-10-05 • 4 min read</p>
-        </header>
-
-        <div className="space-y-6 text-muted">
+    <ReflectionArticleLayout
+      title="how to study 4 hours every day"
+      meta="2024-10-05 • 4 min read"
+    >
           <p>i randomly came across a video where someone talked about what they've done in just one year:</p>
           <ul className="list-disc list-inside space-y-1 pl-4">
             <li>math</li>
@@ -47,21 +45,6 @@ export default function StudyPost() {
           <p>if you're working 24/7, you'll burn out. spend time with loved ones and have fun. remember: "it's just part of your life, not your whole life."</p>
           <p>that's all for now. thanks for being here.</p>
           <p className="pt-4">until then,<br />siddharth</p>
-        </div>
-
-        <footer className="mt-12 pt-8 border-t border-muted/20">
-          <h2 className="text-lg font-semibold mb-4 text-foreground">say hello</h2>
-          <p className="text-muted">
-            say hi on{" "}
-            <a href="https://x.com/notcodesid" target="_blank" rel="noopener noreferrer" className="text-accent hover:underline">x.com</a>
-            {" "}or email{" "}
-            <a href="mailto:notcodesid@gmail.com" className="text-accent hover:underline">notcodesid@gmail.com</a>
-            . i read every message :)
-          </p>
-        </footer>
-      </article>
-    </main>
+    </ReflectionArticleLayout>
   );
 }
-
-

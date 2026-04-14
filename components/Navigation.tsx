@@ -6,14 +6,18 @@ import { usePathname } from "next/navigation";
 export default function Navigation() {
   const pathname = usePathname();
 
-  if (pathname === "/") {
+  if (
+    pathname === "/" ||
+    pathname.startsWith("/thoughts") ||
+    pathname.startsWith("/reflection")
+  ) {
     return null;
   }
 
   const navItems = [
     { href: "/", label: "me" },
     { href: "/stuff", label: "stuff i've built" },
-    { href: "/thoughts", label: "thoughts" },
+    { href: "/reflection", label: "reflection" },
     { href: "/things", label: "???" },
     { href: "/cv", label: "cv" },
   ];

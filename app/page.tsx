@@ -20,7 +20,7 @@ const details = [
   {
     label: "writing/",
     value: "reflection",
-    href: "/thoughts",
+    href: "/reflection",
     secondaryHref: "https://medium.com/@notcodesid",
     secondaryLabel: "technical blogs",
   },

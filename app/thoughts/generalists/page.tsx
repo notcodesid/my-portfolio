@@ -1,13 +1,11 @@
+import ReflectionArticleLayout from "@/components/ReflectionArticleLayout";
+
 export default function GeneralistsPost() {
   return (
-    <main className="pb-16">
-      <article className="text-base leading-relaxed">
-        <header className="mb-8">
-          <h1 className="text-2xl font-semibold mb-2 text-foreground">generalists in the information age</h1>
-          <p className="text-muted text-sm">2024-09-15 • 4 min read</p>
-        </header>
-
-        <div className="space-y-6 text-muted">
+    <ReflectionArticleLayout
+      title="generalists in the information age"
+      meta="2024-09-15 • 4 min read"
+    >
           <p>in a world obsessed with specialization, being a generalist feels almost rebellious. everyone tells you to "niche down" and become the best at one thing. but what if there's power in knowing a little about a lot?</p>
 
           <h2 className="text-lg font-semibold text-foreground pt-4">the case for generalists</h2>
@@ -37,21 +35,6 @@ export default function GeneralistsPost() {
           <p>explore widely. learn constantly. connect the dots.</p>
           <p>the world needs more people who can see the whole picture, not just the pixels.</p>
           <p className="pt-4">until then,<br />siddharth</p>
-        </div>
-
-        <footer className="mt-12 pt-8 border-t border-muted/20">
-          <h2 className="text-lg font-semibold mb-4 text-foreground">say hello</h2>
-          <p className="text-muted">
-            say hi on{" "}
-            <a href="https://x.com/notcodesid" target="_blank" rel="noopener noreferrer" className="text-accent hover:underline">x.com</a>
-            {" "}or email{" "}
-            <a href="mailto:notcodesid@gmail.com" className="text-accent hover:underline">notcodesid@gmail.com</a>
-            . i read every message :)
-          </p>
-        </footer>
-      </article>
-    </main>
+    </ReflectionArticleLayout>
   );
 }
-
-

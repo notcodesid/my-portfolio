@@ -1,13 +1,11 @@
+import ReflectionArticleLayout from "@/components/ReflectionArticleLayout";
+
 export default function JournalPost() {
   return (
-    <main className="pb-16">
-      <article className="text-base leading-relaxed">
-        <header className="mb-8">
-          <h1 className="text-2xl font-semibold mb-2 text-foreground">my journal</h1>
-          <p className="text-muted text-sm">2025-05-01 • 4 min read</p>
-        </header>
-
-        <div className="space-y-6 text-muted">
+    <ReflectionArticleLayout
+      title="my journal"
+      meta="2025-05-01 • 4 min read"
+    >
           <p>i don't know where to start the journal. actually, not even the journal but lately, i've developed this love for writing. maybe because i've seen a lot of people just write their thoughts. could be on the internet or in a personal note. but one thing i noticed is they really write a lot.</p>
           <p>so starting with this, right now, i don't have anything to say. the electricity is cut, i've got no internet connection, no games on my mac, and i'm not interested in reading books either. the one i've been reading is a bit complicated. needs the internet to understand what the author is actually trying to say.</p>
           <p>while writing this, there's this little sound in my head saying just write about your life. recently, i've been meeting a lot of people who talk about their careers and what they want to do.</p>
@@ -24,21 +22,6 @@ export default function JournalPost() {
           <p>but even with all this, i really love what i'm doing right now.</p>
           <p>writing a lot of prompts, tweaking them a bit. learning more about design. reading here and there. playing chess for fun. and obviously, my first love, cricket. always wanted to bat like kohli. sometimes i actually play like him. and not gonna lie, sometimes i actually play like him. at least in my colony. i play the cover drives, the aggression, the calmness.</p>
           <p className="pt-4">until then,<br />siddharth</p>
-        </div>
-
-        <footer className="mt-12 pt-8 border-t border-muted/20">
-          <h2 className="text-lg font-semibold mb-4 text-foreground">say hello</h2>
-          <p className="text-muted">
-            say hi on{" "}
-            <a href="https://x.com/notcodesid" target="_blank" rel="noopener noreferrer" className="text-accent hover:underline">x.com</a>
-            {" "}or email{" "}
-            <a href="mailto:notcodesid@gmail.com" className="text-accent hover:underline">notcodesid@gmail.com</a>
-            . i read every message :)
-          </p>
-        </footer>
-      </article>
-    </main>
+    </ReflectionArticleLayout>
   );
 }
-
-

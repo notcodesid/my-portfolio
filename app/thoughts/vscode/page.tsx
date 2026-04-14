@@ -1,13 +1,11 @@
+import ReflectionArticleLayout from "@/components/ReflectionArticleLayout";
+
 export default function VscodePost() {
   return (
-    <main className="pb-16">
-      <article className="text-base leading-relaxed">
-        <header className="mb-8">
-          <h1 className="text-2xl font-semibold mb-2 text-foreground">transition from cursor to vscode</h1>
-          <p className="text-muted text-sm">april 18, 2025 • 5 min read</p>
-        </header>
-
-        <div className="space-y-6 text-muted">
+    <ReflectionArticleLayout
+      title="transition from cursor to vscode"
+      meta="april 18, 2025 • 5 min read"
+    >
           <p>i've always loved side projects, they're the best way to get that satisfaction of learning and building something cool. back in the day, i used to build projects on my own, coding late nights, debugging for hours, and feeling like i was learning at an exceptional level. it was all hands-on, and i loved the grind. but lately, things changed.</p>
           <p>i started using cursor a lot, especially since i couldn't afford the paid plan at first, but once i did, it became my go-to. it made coding feel so easy, but then i noticed something: i wasn't learning as much. this hit home during my last couple of technical interviews, where i couldn't solve simple problems. that's when i knew i had to make a change.</p>
 
@@ -36,21 +34,6 @@ export default function VscodePost() {
           <p>coding is about solving problems and growing. ai can help, but don't let it do everything.</p>
           <p className="font-medium text-foreground">don't automate the fun stuff.</p>
           <p className="pt-4">until then,<br />siddharth</p>
-        </div>
-
-        <footer className="mt-12 pt-8 border-t border-muted/20">
-          <h2 className="text-lg font-semibold mb-4 text-foreground">say hello</h2>
-          <p className="text-muted">
-            say hi on{" "}
-            <a href="https://x.com/notcodesid" target="_blank" rel="noopener noreferrer" className="text-accent hover:underline">x.com</a>
-            {" "}or email{" "}
-            <a href="mailto:notcodesid@gmail.com" className="text-accent hover:underline">notcodesid@gmail.com</a>
-            . i read every message :)
-          </p>
-        </footer>
-      </article>
-    </main>
+    </ReflectionArticleLayout>
   );
 }
-
-

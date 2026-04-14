@@ -1,13 +1,11 @@
+import ReflectionArticleLayout from "@/components/ReflectionArticleLayout";
+
 export default function CodePost() {
   return (
-    <main className="pb-16">
-      <article className="text-base leading-relaxed">
-        <header className="mb-8">
-          <h1 className="text-2xl font-semibold mb-2 text-foreground">can you really code?</h1>
-          <p className="text-muted text-sm">may 10, 2025 • 4 min read</p>
-        </header>
-
-        <div className="space-y-6 text-muted">
+    <ReflectionArticleLayout
+      title="can you really code?"
+      meta="may 10, 2025 • 4 min read"
+    >
           <p>on may 7, 2025 cursor dropped some pretty big news:</p>
           <p>honestly? it's kind of amazing.</p>
           <p>ai coding assistant, free for a whole year, right when you're just getting started.</p>
@@ -67,21 +65,6 @@ export default function CodePost() {
           <p>this is your time to learn how to really build</p>
           <p>you've got this</p>
           <p className="pt-4">until then,<br />siddharth</p>
-        </div>
-
-        <footer className="mt-12 pt-8 border-t border-muted/20">
-          <h2 className="text-lg font-semibold mb-4 text-foreground">say hello</h2>
-          <p className="text-muted">
-            say hi on{" "}
-            <a href="https://x.com/notcodesid" target="_blank" rel="noopener noreferrer" className="text-accent hover:underline">x.com</a>
-            {" "}or email{" "}
-            <a href="mailto:notcodesid@gmail.com" className="text-accent hover:underline">notcodesid@gmail.com</a>
-            . i read every message :)
-          </p>
-        </footer>
-      </article>
-    </main>
+    </ReflectionArticleLayout>
   );
 }
-
-

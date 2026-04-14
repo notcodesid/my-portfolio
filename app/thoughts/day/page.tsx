@@ -1,13 +1,11 @@
+import ReflectionArticleLayout from "@/components/ReflectionArticleLayout";
+
 export default function DayPost() {
   return (
-    <main className="pb-16">
-      <article className="text-base leading-relaxed">
-        <header className="mb-8">
-          <h1 className="text-2xl font-semibold mb-2 text-foreground">a day of 20 years old</h1>
-          <p className="text-muted text-sm">2025-04-22 • 3 min read</p>
-        </header>
-
-        <div className="space-y-6 text-muted">
+    <ReflectionArticleLayout
+      title="a day of 20 years old"
+      meta="2025-04-22 • 3 min read"
+    >
           <p>first things first, make the bed. because you can't code your way to greatness with a wrinkled sheet. can you? salt water in hand, trying to summon an endorphin rush. a bit of liquid luck, because i'll need it today. five minutes of meditation to stop obsessing about how much i'm not doing.</p>
 
           <h2 className="text-lg font-semibold text-foreground pt-4">morning routine</h2>
@@ -34,21 +32,6 @@ export default function DayPost() {
           <p>write the todos. write the code. write the story.</p>
           <p>but somehow, this chaos clicks together—barely. and i wouldn't have it any other way.</p>
           <p className="pt-4">until then,<br />siddharth</p>
-        </div>
-
-        <footer className="mt-12 pt-8 border-t border-muted/20">
-          <h2 className="text-lg font-semibold mb-4 text-foreground">say hello</h2>
-          <p className="text-muted">
-            say hi on{" "}
-            <a href="https://x.com/notcodesid" target="_blank" rel="noopener noreferrer" className="text-accent hover:underline">x.com</a>
-            {" "}or email{" "}
-            <a href="mailto:notcodesid@gmail.com" className="text-accent hover:underline">notcodesid@gmail.com</a>
-            . i read every message :)
-          </p>
-        </footer>
-      </article>
-    </main>
+    </ReflectionArticleLayout>
   );
 }
-
-
