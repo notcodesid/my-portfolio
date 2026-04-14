@@ -1,12 +1,13 @@
 import type { Metadata } from "next";
-import { JetBrains_Mono } from "next/font/google";
+import { Ovo } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/components/ThemeProvider";
 import Navigation from "@/components/Navigation";
 
-const jetbrainsMono = JetBrains_Mono({
+const ovo = Ovo({
+  weight: "400",
   subsets: ["latin"],
-  variable: "--font-jetbrains-mono",
+  variable: "--font-ovo",
 });
 
 export const metadata: Metadata = {
@@ -36,7 +37,7 @@ export default function RootLayout({
           }}
         />
       </head>
-      <body className={`${jetbrainsMono.variable} antialiased`}>
+      <body className={`${ovo.variable} antialiased`}>
         <ThemeProvider>
           <div className="min-h-screen flex flex-col items-center">
             <div className="w-full max-w-2xl px-6 pt-20">

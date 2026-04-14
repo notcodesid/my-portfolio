@@ -9,7 +9,7 @@ const details = [
   },
   {
     label: "actively learning/",
-    value: "math, code, writing, gaming virality, crypto, chess, sales & marketing",
+    value: "math, code, writing, blockchain(solana), gaming virality, chess, sales & marketing",
   },
   {
     label: "work/",
@@ -44,7 +44,7 @@ export default function Home() {
     <main className="flex min-h-[calc(100dvh-5rem)] items-center">
       <section className="w-full">
         <div className="grid gap-10 sm:gap-12">
-          <p className="text-[0.95rem] leading-none font-semibold text-white">
+          <p className="text-[2rem] leading-none font-semibold text-white">
             i&apos;m sid
           </p>
 
