@@ -13,7 +13,7 @@ const details = [
   },
   {
     label: "work/",
-    value: "founder of",
+    value: "building",
     linkLabel: "tryproven.fun",
     href: "https://aquamarine-operators-401678.framer.app/",
     secondaryHref: "/stuff",
