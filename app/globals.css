@@ -23,3 +23,33 @@ body {
   min-height: 100vh;
   text-rendering: optimizeLegibility;
 }
+
+.home-shell {
+  margin-left: 50%;
+  transform: translateX(-50%);
+  width: min(76rem, calc(100vw - 3rem));
+}
+
+.home-grid {
+  display: grid;
+  gap: 2.5rem;
+}
+
+@media (min-width: 640px) {
+  .home-grid {
+    align-items: center;
+    grid-template-columns: minmax(14rem, 26rem) minmax(0, 1fr);
+    gap: 3rem;
+  }
+
+  .home-detail-row {
+    grid-template-columns: 6.5rem minmax(0, 1fr);
+    gap: 1.75rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .home-grid {
+    gap: 5rem;
+  }
+}
