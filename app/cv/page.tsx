@@ -33,7 +33,7 @@ const projects = [
   },
   {
     name: "proven",
-    link: "https://aquamarine-operators-401678.framer.app/",
+    link: "https://tryproven.fun",
     description: "habit-tracking app that pays users for consistency",
   },
   {

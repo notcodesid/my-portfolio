@@ -17,7 +17,7 @@ const details = [
     label: "work/",
     value: "building",
     linkLabel: "tryproven.fun",
-    href: "https://aquamarine-operators-401678.framer.app/",
+    href: "https://tryproven.fun",
     secondaryHref: "/stuff",
     secondaryLabel: "+4 more",
   },
