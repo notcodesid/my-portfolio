@@ -3,6 +3,11 @@ import ThoughtsBackLink from "@/components/ThoughtsBackLink";
 
 const posts = [
   {
+    title: "hi",
+    category: "showing the human behind Proven",
+    link: "/reflection/hi",
+  },
+  {
     title: "the winner effect",
     category: "how small wins quietly change everything",
     link: "/reflection/winnereffect",

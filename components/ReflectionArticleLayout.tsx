@@ -16,7 +16,7 @@ export default function ReflectionArticleLayout({
     <main className="pb-20">
       <ThoughtsBackLink />
 
-      <article className="mx-auto max-w-[32rem] pt-24 sm:pt-28">
+      <article className="mx-auto w-full max-w-[32rem] pt-24 sm:pt-28">
         <header className="mb-10">
           <h1 className="mb-2 text-[2rem] leading-none font-semibold text-white">
             {title}
