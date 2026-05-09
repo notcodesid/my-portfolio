@@ -14,7 +14,7 @@ export default function ReflectionArticleLayout({
 }: ReflectionArticleLayoutProps) {
   return (
     <main className="pb-20">
-      <ThoughtsBackLink />
+      <ThoughtsBackLink href="/reflection" label="reflection" />
 
       <article className="mx-auto w-full max-w-[32rem] pt-24 sm:pt-28">
         <header className="mb-10">

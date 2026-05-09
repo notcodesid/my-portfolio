@@ -3,6 +3,11 @@ import ThoughtsBackLink from "@/components/ThoughtsBackLink";
 
 const posts = [
   {
+    title: "give the idea five minutes",
+    category: "thinking before dismissing things",
+    link: "/reflection/give-the-idea-five-minutes",
+  },
+  {
     title: "hi",
     category: "showing the human behind Proven",
     link: "/reflection/hi",
