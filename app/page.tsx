@@ -19,7 +19,7 @@ const details = [
     linkLabel: "tryproven.fun",
     href: "https://tryproven.fun",
     secondaryHref: "/stuff",
-    secondaryLabel: "+4 more",
+    secondaryLabel: "+5 more",
   },
   {
     label: "writing/",

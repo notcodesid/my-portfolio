@@ -2,6 +2,11 @@ import ThoughtsBackLink from "@/components/ThoughtsBackLink";
 
 const projects = [
   {
+    name: "signal",
+    link: "https://signal.notcodesid.com",
+    description: "embedded AI in all crypto protocols",
+  },
+  {
     name: "friday",
     link: "https://friday-q8eb.vercel.app/",
     description: "ai-powered marketing operator",
