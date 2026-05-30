@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>OOBE x Ace Data Cloud Bounty Idea</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f7f7f4;
+      --ink: #171717;
+      --muted: #66645d;
+      --line: #d9d6cc;
+      --accent: #2155d6;
+      --good: #0b7a44;
+      --warn: #9f4a00;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.55;
+    }
+    main {
+      max-width: 920px;
+      margin: 0 auto;
+      padding: 56px 24px 72px;
+    }
+    header {
+      border-bottom: 1px solid var(--line);
+      padding-bottom: 28px;
+      margin-bottom: 32px;
+    }
+    h1 {
+      font-size: clamp(34px, 6vw, 64px);
+      line-height: 0.98;
+      letter-spacing: 0;
+      margin: 0 0 16px;
+    }
+    h2 {
+      font-size: 22px;
+      margin: 36px 0 12px;
+      padding-top: 4px;
+    }
+    h3 {
+      font-size: 16px;
+      margin: 22px 0 8px;
+    }
+    p { margin: 0 0 14px; }
+    ul, ol { padding-left: 22px; margin: 0 0 18px; }
+    li { margin: 6px 0; }
+    .eyebrow {
+      color: var(--accent);
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      font-size: 12px;
+      margin-bottom: 12px;
+    }
+    .summary {
+      color: var(--muted);
+      max-width: 720px;
+      font-size: 18px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 16px;
+      margin: 18px 0 24px;
+    }
+    .box {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 16px;
+      background: #fffdfa;
+    }
+    .label {
+      display: inline-flex;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      padding: 3px 10px;
+      margin: 0 6px 8px 0;
+      color: var(--muted);
+      font-size: 13px;
+      background: #fffdfa;
+    }
+    .score {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 12px;
+      background: #fffdfa;
+    }
+    .score th, .score td {
+      border: 1px solid var(--line);
+      padding: 10px 12px;
+      text-align: left;
+    }
+    .score th {
+      font-size: 13px;
+      color: var(--muted);
+      font-weight: 700;
+    }
+    .pass { color: var(--good); font-weight: 700; }
+    .risk { color: var(--warn); font-weight: 700; }
+    a { color: var(--accent); }
+    @media (max-width: 720px) {
+      main { padding: 36px 18px 56px; }
+      .grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <div class="eyebrow">Solana.new idea report</div>
+      <h1>ProofPilot: an autonomous research-to-campaign agent</h1>
+      <p class="summary">
+        Recommended category: Ace Data Cloud Usage via x402 facilitator. The agent autonomously turns a Solana project URL or ticker into a verified launch brief, social thread, and visual asset pack, while discovering tools through SAP and paying for at least three Ace Data Cloud services onchain.
+      </p>
+    </header>
+
+    <section>
+      <h2>Why This Category</h2>
+      <p>
+        The bounty has two prize buckets: general SAP escrow payment volume and Ace Data Cloud usage. The better target is Ace Data Cloud Usage because it rewards real, explainable consumption of Ace services, and the requirements are concrete: SAP mainnet registration, complete autonomous workflow, x402 with Ace's facilitator, Synapse RPC, and at least three distinct Ace services.
+      </p>
+      <span class="label">Bounty fit: high</span>
+      <span class="label">MVP speed: under one week</span>
+      <span class="label">Crypto necessity: payments and audit trail</span>
+    </section>
+
+    <section>
+      <h2>The Idea</h2>
+      <p>
+        ProofPilot monitors new Solana launches, bounty listings, or GitHub repos. When triggered, it researches the project, summarizes the opportunity, creates a credibility report, generates a short X thread, and produces one visual teaser. It logs every tool call and payment so the demo can prove real autonomous execution.
+      </p>
+      <div class="grid">
+        <div class="box">
+          <h3>Input</h3>
+          <p>A project URL, token mint, GitHub repo, or bounty page.</p>
+        </div>
+        <div class="box">
+          <h3>Output</h3>
+          <p>Brief, risk notes, competitor summary, X thread, and generated visual.</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Autonomous Workflow</h2>
+      <ol>
+        <li>Trigger: cron job or webhook detects a new project, bounty, or repo.</li>
+        <li>SAP discovery: agent queries SAP for available tools, including Synapse Sentinel once.</li>
+        <li>Ace service 1: chat/completions to classify the project, extract claims, and plan research.</li>
+        <li>Ace service 2: search or scraping-capable API, if available, to gather public evidence; otherwise use a second distinct LLM/model capability for source normalization.</li>
+        <li>Ace service 3: image generation such as Midjourney/Flux/OpenAI Image for a shareable visual.</li>
+        <li>Settlement: every Ace call is paid with x402 using Ace Data Cloud's facilitator and Synapse RPC.</li>
+        <li>Finalization: agent stores a signed run log, payment tx links, selected tools, and generated outputs.</li>
+      </ol>
+    </section>
+
+    <section>
+      <h2>Why Crypto Is Required</h2>
+      <p class="pass">
+        This passes the crypto necessity test because the product is not just an AI wrapper: the core proof is that an autonomous agent can discover tools, buy AI services, and leave an onchain payment/audit trail without manual approvals.
+      </p>
+      <p>
+        If you remove blockchain, the demo loses its main point: open agent-to-service settlement across independent parties. A normal Web2 billing flow could generate the same content, but it cannot prove autonomous agent payments in the SAP/x402 network.
+      </p>
+    </section>
+
+    <section>
+      <h2>Scoring</h2>
+      <table class="score">
+        <thead>
+          <tr><th>Dimension</th><th>Score</th><th>Reason</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Founder fit</td><td>2/3</td><td>Good for a Solana/backend builder; no special sales dependency.</td></tr>
+          <tr><td>MVP speed</td><td>3/3</td><td>Can be built as a CLI plus simple dashboard/demo page.</td></tr>
+          <tr><td>Distribution clarity</td><td>2/3</td><td>Targets Solana founders, bounty hunters, and launch teams.</td></tr>
+          <tr><td>Market pull</td><td>2/3</td><td>Launch research and content ops are recurring pains.</td></tr>
+          <tr><td>Revenue path</td><td>1/3</td><td>Useful after the bounty, but monetization is secondary.</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section>
+      <h2>MVP Checklist</h2>
+      <ul>
+        <li>Register ProofPilot as an SAP mainnet agent.</li>
+        <li>Implement a run planner that selects tools through SAP rather than hardcoding every step.</li>
+        <li>Integrate Ace x402 client for Solana settlements.</li>
+        <li>Use three distinct Ace capabilities in one end-to-end run.</li>
+        <li>Call Synapse Sentinel at least once and include that in the demo log.</li>
+        <li>Build a run viewer showing trigger, tool discovery, service calls, payment txs, and final outputs.</li>
+        <li>Record a 2-3 minute walkthrough and post on X with the required tags and GitHub repo.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Kill This Idea If</h2>
+      <p class="risk">
+        Kill it if Ace does not expose enough distinct services through the x402 path you can call reliably before the deadline, or if SAP tool discovery cannot be shown clearly in the demo.
+      </p>
+      <p>
+        In that case, pivot to a narrower "agent invoice auditor" that only uses chat, image, and video/music generation to create a campaign asset pack, because those Ace capabilities are visibly documented in Nexior.
+      </p>
+    </section>
+
+    <section>
+      <h2>Sources</h2>
+      <ul>
+        <li><a href="https://superteam.fun/earn/listing/autonomous-agent-bounty-oobe-ace-data-cloud/">Superteam Earn bounty listing</a></li>
+        <li><a href="https://www.solana.new/">solana.new</a></li>
+        <li><a href="https://github.com/sendaifun/solana-new">sendaifun/solana-new</a></li>
+        <li><a href="https://github.com/AceDataCloud/Nexior">AceDataCloud/Nexior</a></li>
+        <li><a href="https://github.com/AceDataCloud/X402Client">AceDataCloud/X402Client</a></li>
+      </ul>
+    </section>
+  </main>
+</body>
+</html>

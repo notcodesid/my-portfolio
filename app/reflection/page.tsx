@@ -3,6 +3,11 @@ import ThoughtsBackLink from "@/components/ThoughtsBackLink";
 
 const posts = [
   {
+    title: "boredom",
+    category: "what boredom asks when there is nothing to consume",
+    link: "/reflection/boredom",
+  },
+  {
     title: "give the idea five minutes",
     category: "thinking before dismissing things",
     link: "/reflection/give-the-idea-five-minutes",
