@@ -27,6 +27,11 @@ const projects = [
     description:
       "a demo site for an Indian platform where you can rent fully equipped camper vans, caravans, and motorhomes for road trips, basically Airbnb for RVs in India",
   },
+  {
+    name: "learn to code",
+    link: "https://learntocode.notcodesid.com",
+    description: "a learn-to-code platform for beginners",
+  },
 ];
 
 export default function ProjectsSection({

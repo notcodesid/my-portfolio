@@ -46,6 +46,11 @@ const projects = [
     link: "https://travelhomes-frontend.vercel.app/",
     description: "airbnb-for-rvs style demo for camper van road trips in india",
   },
+  {
+    name: "learn to code",
+    link: "https://learntocode.notcodesid.com",
+    description: "learn-to-code platform for beginners",
+  },
 ];
 
 const links = [
