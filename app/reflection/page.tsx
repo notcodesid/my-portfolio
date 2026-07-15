@@ -3,6 +3,11 @@ import ThoughtsBackLink from "@/components/ThoughtsBackLink";
 
 const posts = [
   {
+    title: "why proven matters to me",
+    category: "why i keep building proven",
+    link: "/reflection/founder-note",
+  },
+  {
     title: "boredom",
     category: "what boredom asks when there is nothing to consume",
     link: "/reflection/boredom",
