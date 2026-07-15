@@ -1,4 +1,50 @@
+import Image from "next/image";
 import ReflectionArticleLayout from "@/components/ReflectionArticleLayout";
+
+const founderNoteImages = [
+  {
+    src: "/portfolio/founder-note/building-proven.jpeg",
+    alt: "building proven from a laptop",
+    width: 3024,
+    height: 4032,
+  },
+  {
+    src: "/portfolio/founder-note/search-your-mind.jpeg",
+    alt: "a cap that says search your mind see what you find",
+    width: 1179,
+    height: 1340,
+  },
+  {
+    src: "/portfolio/founder-note/working-together.jpeg",
+    alt: "working together at a table",
+    width: 1078,
+    height: 602,
+  },
+  {
+    src: "/portfolio/founder-note/zero-to-one.jpeg",
+    alt: "zero to one beside a laptop",
+    width: 1980,
+    height: 3520,
+  },
+  {
+    src: "/portfolio/founder-note/pull-ups.jpeg",
+    alt: "doing pull-ups at night",
+    width: 584,
+    height: 1062,
+  },
+  {
+    src: "/portfolio/founder-note/handstand.jpeg",
+    alt: "practicing a handstand outside",
+    width: 588,
+    height: 1070,
+  },
+  {
+    src: "/portfolio/founder-note/five-k-run.jpeg",
+    alt: "five kilometer run result",
+    width: 996,
+    height: 1346,
+  },
+];
 
 export default function FounderNotePost() {
   return (
@@ -65,6 +111,23 @@ export default function FounderNotePost() {
         i really believe the idea is very noble. if the execution is good and
         the distribution is good enough, i think the idea can be huge.
       </p>
+      <figure className="columns-2 gap-2">
+        {founderNoteImages.map((image) => (
+          <div
+            key={image.src}
+            className="mb-2 break-inside-avoid overflow-hidden rounded-[6px] border border-white/10 bg-white/5"
+          >
+            <Image
+              src={image.src}
+              alt={image.alt}
+              width={image.width}
+              height={image.height}
+              sizes="(min-width: 640px) 15.75rem, calc(50vw - 1.5rem)"
+              className="h-auto w-full select-none grayscale opacity-90"
+            />
+          </div>
+        ))}
+      </figure>
     </ReflectionArticleLayout>
   );
 }
