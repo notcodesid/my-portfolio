@@ -75,7 +75,7 @@ export default function CV() {
                 summary/
               </p>
               <p className="max-w-xl text-[0.95rem] leading-relaxed font-semibold text-white">
-                frontend-heavy product engineer building across web, mobile,
+                full-stack product engineer building across web, mobile,
                 design systems, and blockchain apps.
               </p>
             </div>
