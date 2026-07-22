@@ -28,7 +28,7 @@ const experiences = [
 const projects = [
   {
     name: "proven",
-    link: "https://tryproven.fun",
+    link: "https://tryproven.framer.website/",
     description: "habit-tracking app that pays users for consistency",
   },
   {

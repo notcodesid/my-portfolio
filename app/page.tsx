@@ -16,8 +16,8 @@ const details = [
   {
     label: "work/",
     value: "building",
-    linkLabel: "tryproven.fun",
-    href: "https://tryproven.fun",
+    linkLabel: "tryproven.framer.website",
+    href: "https://tryproven.framer.website/",
     secondaryHref: "/stuff",
     secondaryLabel: "+6 more",
   },
