@@ -1,10 +1,5 @@
 const projects = [
   {
-    name: "signal",
-    link: "https://signal.notcodesid.com",
-    description: "embedded AI in all crypto protocols.",
-  },
-  {
     name: "friday",
     link: "https://friday-q8eb.vercel.app/",
     description: "is an AI-powered marketing operator.",
@@ -20,12 +15,6 @@ const projects = [
     link: "https://www.instantinterior.ai/",
     description:
       "an ai-powered interior design tool that instantly transforms room and exterior photos into professional, photorealistic designs",
-  },
-  {
-    name: "travel homes",
-    link: "https://travelhomes-frontend.vercel.app/",
-    description:
-      "a demo site for an Indian platform where you can rent fully equipped camper vans, caravans, and motorhomes for road trips, basically Airbnb for RVs in India",
   },
   {
     name: "learn to code",

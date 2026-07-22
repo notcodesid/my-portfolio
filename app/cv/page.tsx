@@ -27,11 +27,6 @@ const experiences = [
 
 const projects = [
   {
-    name: "friday",
-    link: "https://friday-q8eb.vercel.app/",
-    description: "ai-powered marketing operator",
-  },
-  {
     name: "proven",
     link: "https://tryproven.fun",
     description: "habit-tracking app that pays users for consistency",
@@ -40,11 +35,6 @@ const projects = [
     name: "instant interior",
     link: "https://www.instantinterior.ai/",
     description: "ai interior design tool for photoreal room transformations",
-  },
-  {
-    name: "travel homes",
-    link: "https://travelhomes-frontend.vercel.app/",
-    description: "airbnb-for-rvs style demo for camper van road trips in india",
   },
   {
     name: "learn to code",
