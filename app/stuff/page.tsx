@@ -57,6 +57,21 @@ export default function Stuff() {
                 </div>
               </div>
             ))}
+
+            <div className="grid gap-2 pt-2 sm:grid-cols-[6.5rem_minmax(0,1fr)] sm:gap-4">
+              <p className="text-[0.95rem] leading-10 font-semibold text-white/72">
+                more/
+              </p>
+
+              <a
+                href="https://github.com/notcodesid"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex min-h-10 w-fit items-center text-[0.95rem] leading-relaxed font-semibold text-white underline decoration-white/35 underline-offset-4 transition-colors duration-100 hover:decoration-white focus-visible:rounded-sm focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-black"
+              >
+                more projects and experiments on github →
+              </a>
+            </div>
           </div>
         </div>
       </section>
