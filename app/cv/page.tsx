@@ -7,9 +7,9 @@ const experiences = [
     location: "remote",
     dates: "dec 2025 - mar 2026",
     bullets: [
-      "discovered arbitrage opportunities across prediction markets",
-      "built and tested automated trading strategies",
-      "optimized execution using real market data and team feedback",
+      "researched cross-market price discrepancies to identify arbitrage opportunities across prediction markets",
+      "built and evaluated automated trading strategies against real market data",
+      "refined strategy and execution logic through live-market observations, testing, and team review",
     ],
   },
   {
@@ -18,9 +18,9 @@ const experiences = [
     location: "remote",
     dates: "sep 2024 - nov 2024",
     bullets: [
-      "developed and maintained the project using typescript and javascript",
-      "implemented ui designs using tailwind css and similar frameworks",
-      "fixed bugs and improved features to enhance website functionality",
+      "built and shipped frontend wrappers for multiple ai products, including text-to-voice and voice-to-image tools",
+      "turned different ai capabilities into simple, usable product flows with typescript and tailwind css",
+      "created reusable frontend patterns that made it faster to launch and iterate on new ai products",
     ],
   },
 ];
