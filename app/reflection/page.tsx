@@ -3,6 +3,11 @@ import ThoughtsBackLink from "@/components/ThoughtsBackLink";
 
 const posts = [
   {
+    title: "i kept building because launching scared me",
+    category: "on building, launching, and choosing what to stay with",
+    link: "/reflection/eleven-products",
+  },
+  {
     title: "why proven matters to me",
     category: "why i keep building proven",
     link: "/reflection/founder-note",
