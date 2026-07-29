@@ -27,6 +27,11 @@ const experiences = [
 
 const projects = [
   {
+    name: "summon",
+    link: "https://trysummon.framer.website/",
+    description: "Pokémon, but the animals are real",
+  },
+  {
     name: "proven",
     link: "https://tryproven.framer.website/",
     description: "habit-tracking app that pays users for consistency",

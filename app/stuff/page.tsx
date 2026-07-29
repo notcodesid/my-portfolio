@@ -2,6 +2,12 @@ import ThoughtsBackLink from "@/components/ThoughtsBackLink";
 
 const projects = [
   {
+    name: "summon",
+    link: "https://trysummon.framer.website/",
+    description:
+      "Pokémon, but the animals are real. Scan the wild. Build your team. Every animal you meet becomes yours. The world is your map.",
+  },
+  {
     name: "proven",
     link: "https://tryproven.framer.website/",
     description: "habit-tracking app that pays users for consistency",

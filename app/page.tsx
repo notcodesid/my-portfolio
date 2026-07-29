@@ -19,7 +19,7 @@ const details = [
     linkLabel: "tryproven.framer.website",
     href: "https://tryproven.framer.website/",
     secondaryHref: "/stuff",
-    secondaryLabel: "+6 more",
+    secondaryLabel: "+4 more",
   },
   {
     label: "writing/",
