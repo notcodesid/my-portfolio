@@ -3,6 +3,11 @@ import ThoughtsBackLink from "@/components/ThoughtsBackLink";
 
 const posts = [
   {
+    title: "two meetings and a reality check",
+    category: "validation, interviews, and getting humbled",
+    link: "/reflection/reality",
+  },
+  {
     title: "think before you ask chatgpt",
     category: "using ai as a thinking multiplier",
     link: "/reflection/think-before-you-ask-chatgpt",
