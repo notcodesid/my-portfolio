@@ -3,6 +3,11 @@ import ThoughtsBackLink from "@/components/ThoughtsBackLink";
 
 const posts = [
   {
+    title: "reflections at 21, august 2026 brain dump",
+    category: "21 questions answered",
+    link: "/reflection/21",
+  },
+  {
     title: "two meetings and a reality check",
     category: "validation, interviews, and getting humbled",
     link: "/reflection/reality",
