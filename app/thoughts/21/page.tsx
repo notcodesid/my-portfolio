@@ -3,7 +3,7 @@ import ReflectionArticleLayout from "@/components/ReflectionArticleLayout";
 export default function ReflectionsAt21Post() {
   return (
     <ReflectionArticleLayout
-      title="reflections at 21, august 2026 brain dump"
+      title="reflections at 21"
       meta="aug 17, 2026 • 5 min read"
     >
       <p>
