@@ -7,10 +7,18 @@ export default function HirePost() {
       meta="2024-09-23 • 3 min read"
     >
       <p>
-        so, i was reading this blog by sam altman, how to hire, and it got me
-        thinking: as developers, we really need to understand what founders want
-        from us. here&apos;s what i picked up, and honestly, it&apos;s pretty
-        straightforward!
+        so, i was reading this blog by sam altman,{" "}
+        <a
+          href="https://blog.samaltman.com/how-to-hire"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="underline decoration-white/25 underline-offset-4 transition hover:text-white hover:decoration-white"
+        >
+          how to hire
+        </a>
+        , and it got me thinking: as developers, we really need to understand
+        what founders want from us. here&apos;s what i picked up, and honestly,
+        it&apos;s pretty straightforward!
       </p>
 
       <h2 className="text-lg font-semibold text-foreground pt-4">
