@@ -24,7 +24,7 @@ export default function ReflectionArticleLayout({
           <p className="text-sm font-semibold text-white/45">{meta}</p>
         </header>
 
-        <div className="space-y-8 text-[1.02rem] leading-9 font-medium text-white/62 [&_blockquote]:border-l [&_blockquote]:border-white/20 [&_blockquote]:pl-4 [&_blockquote]:italic [&_blockquote]:text-white/70 [&_em]:text-white/88 [&_strong]:text-white/88 [&_ul]:list-disc [&_ul]:space-y-2 [&_ul]:pl-6">
+        <div className="space-y-6 text-[1.02rem] leading-relaxed font-medium text-white/62 [&_blockquote]:border-l [&_blockquote]:border-white/20 [&_blockquote]:pl-4 [&_blockquote]:italic [&_blockquote]:text-white/70 [&_em]:text-white/88 [&_strong]:text-white/88 [&_ul]:list-disc [&_ul]:space-y-2 [&_ul]:pl-6">
           {children}
         </div>
       </article>
