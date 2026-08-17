@@ -17,7 +17,7 @@ export default function ReflectionsAt21Post() {
           webveda
         </a>
         , got hit with an existential questionnaire, and realized these answers
-        shouldn&apos;t just die in an ashby form. so here they are.
+        shouldn&apos;t just die in a form. so here they are.
       </p>
 
       <div className="space-y-2">
