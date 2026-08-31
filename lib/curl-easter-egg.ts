@@ -74,13 +74,14 @@ export function buildCurlEasterEgg(): string {
       "https://notcodesid.com/reflection",
       "https://medium.com/@notcodesid",
     ]),
-    detail("links/", ["x, github, email, linkedin, cv, instagram"], [
+    detail("links/", ["x, github, email, linkedin, cv, instagram, substack"], [
       "https://x.com/notcodesid",
       "https://github.com/notcodesid",
       "notcodesid@gmail.com",
       "https://linkedin.com/in/sidharthh-pandro",
       "https://notcodesid.com/cv",
       "https://www.instagram.com/sid.ously/",
+      "https://substack.com/@notcodesid",
     ]),
   ];
 

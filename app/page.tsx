@@ -40,6 +40,7 @@ const details = [
       },
       { label: "cv", href: "/cv" },
       { label: "instagram", href: "https://www.instagram.com/sid.ously/" },
+      { label: "substack", href: "https://substack.com/@notcodesid" },
     ],
   },
 ];
@@ -70,7 +71,9 @@ export default function Home() {
                     <div className="max-w-xl text-[0.95rem] leading-relaxed font-semibold text-white/72">
                       {item.links.map((link, index) => (
                         <span key={link.label}>
-                          {index > 0 ? ", " : null}
+                          {index > 0 ? (
+                            <span className="mx-4 text-white/40">·</span>
+                          ) : null}
                           <a
                             href={link.href}
                             target={link.href.startsWith("http") ? "_blank" : undefined}
@@ -79,7 +82,7 @@ export default function Home() {
                                 ? "noopener noreferrer"
                                 : undefined
                             }
-                            className="underline decoration-white/35 underline-offset-4 transition hover:text-white hover:decoration-white"
+                            className="transition hover:text-white"
                           >
                             {link.label}
                           </a>

@@ -56,6 +56,7 @@ const links = [
   },
   { label: "github", href: "https://github.com/notcodesid" },
   { label: "x", href: "https://x.com/notcodesid" },
+  { label: "substack", href: "https://substack.com/@notcodesid" },
 ];
 
 export default function CV() {
