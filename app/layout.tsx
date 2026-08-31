@@ -13,7 +13,7 @@ const ovo = Ovo({
 
 export const metadata: Metadata = {
   title: "sid",
-  description: "21 yrs old eng, builder and more",
+  description: "22 yrs old eng, builder and more",
 };
 
 export default function RootLayout({

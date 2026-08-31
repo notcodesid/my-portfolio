@@ -53,7 +53,7 @@ function detail(
 
 export function buildCurlEasterEgg(): string {
   const sections = [
-    detail("who/", ["21, m, india"]),
+    detail("who/", ["22, m, india"]),
     detail(
       "about/",
       wrap(

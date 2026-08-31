@@ -3,7 +3,7 @@ import ProtectedImage from "@/components/ProtectedImage";
 const details = [
   {
     label: "who/",
-    value: "21, m, india",
+    value: "22, m, india",
   },
   {
     label: "about/",
