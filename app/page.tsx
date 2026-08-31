@@ -39,8 +39,8 @@ const details = [
         href: "https://linkedin.com/in/sidharthh-pandro",
       },
       { label: "cv", href: "/cv" },
-      { label: "instagram", href: "https://www.instagram.com/sid.ously/" },
       { label: "substack", href: "https://substack.com/@notcodesid" },
+      { label: "instagram", href: "https://www.instagram.com/sid.ously/" },
     ],
   },
 ];
