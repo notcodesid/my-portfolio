@@ -11,7 +11,7 @@ export default function ProtectedImage() {
     >
       <Image
         src={meImage}
-        alt="sunflower illustration"
+        alt="sid lying in a grassy field, looking at a phone"
         priority
         draggable={false}
         onDragStart={(event) => event.preventDefault()}
