@@ -13,6 +13,11 @@ const projects = [
     description: "habit-tracking app that pays users for consistency",
   },
   {
+    name: "kairo",
+    link: "https://kairo.notcodesid.com/",
+    description: "the blockchain is public. your money shouldn’t be.",
+  },
+  {
     name: "instant interior",
     link: "https://www.instantinterior.ai/",
     description: "ai interior design tool for photoreal room transformations",
