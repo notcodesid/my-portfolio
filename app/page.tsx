@@ -29,6 +29,11 @@ const details = [
     secondaryLabel: "technical blogs",
   },
   {
+    label: "ideas/",
+    value: "mental models, patterns & frameworks",
+    href: "/ideas",
+  },
+  {
     label: "links/",
     links: [
       { label: "x", href: "https://x.com/notcodesid" },

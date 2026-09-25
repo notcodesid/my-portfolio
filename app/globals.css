@@ -24,6 +24,29 @@ body {
   text-rendering: optimizeLegibility;
 }
 
+::selection {
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+
+.idea-prose blockquote {
+  border-left: 1px solid rgba(255, 255, 255, 0.24);
+  margin: 2rem 0;
+  padding-left: 1.25rem;
+  color: rgba(255, 255, 255, 0.88);
+  font-size: 1.15rem;
+  line-height: 1.65;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
 .home-shell {
   margin-left: 50%;
   transform: translateX(-50%);

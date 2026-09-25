@@ -11,7 +11,8 @@ export default function Navigation() {
     pathname.startsWith("/cv") ||
     pathname.startsWith("/stuff") ||
     pathname.startsWith("/thoughts") ||
-    pathname.startsWith("/reflection")
+    pathname.startsWith("/reflection") ||
+    pathname.startsWith("/ideas")
   ) {
     return null;
   }
