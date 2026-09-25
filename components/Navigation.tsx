@@ -20,7 +20,7 @@ export default function Navigation() {
 
   const navItems = [
     { href: "/", label: "me" },
-    { href: "/stuff", label: "stuff i've built" },
+    { href: "/work", label: "stuff i've built" },
     { href: "/reflection", label: "reflection" },
     { href: "/things", label: "???" },
     { href: "/cv", label: "cv" },
