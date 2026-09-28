@@ -26,6 +26,15 @@ export const ideas: Idea[] = [
     category: "brand & marketing",
     date: "september 2026",
   },
+  {
+    slug: "competition",
+    number: "03",
+    title: "competition",
+    summary:
+      "competition makes you fight over the same prize instead of finding what is uniquely yours.",
+    category: "life & work",
+    date: "september 2026",
+  },
 ];
 
 export function getIdea(slug: string) {
