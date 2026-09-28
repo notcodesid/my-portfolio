@@ -9,12 +9,12 @@ export type Idea = {
 
 export const ideas: Idea[] = [
   {
-    slug: "build-culture-not-content-calendars",
+    slug: "competition",
     number: "01",
-    title: "build culture, not content calendars",
+    title: "competition",
     summary:
-      "the best brands do not feed an algorithm. they build a world people want to belong to.",
-    category: "brand & marketing",
+      "competition makes you fight over the same prize instead of finding what is uniquely yours.",
+    category: "life & work",
     date: "september 2026",
   },
   {
@@ -27,12 +27,12 @@ export const ideas: Idea[] = [
     date: "september 2026",
   },
   {
-    slug: "competition",
+    slug: "build-culture-not-content-calendars",
     number: "03",
-    title: "competition",
+    title: "build culture, not content calendars",
     summary:
-      "competition makes you fight over the same prize instead of finding what is uniquely yours.",
-    category: "life & work",
+      "the best brands do not feed an algorithm. they build a world people want to belong to.",
+    category: "brand & marketing",
     date: "september 2026",
   },
 ];
