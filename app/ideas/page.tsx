@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 };
 
 export default function IdeasPage() {
-  const featured = ideas[0];
+  const featured = ideas[ideas.length - 1];
 
   return (
     <main className="pb-24">
